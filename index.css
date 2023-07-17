@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@200;300;400;600;700;800;900&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
 /* Font styels */
 * {
     font-family: 'Inter', sans-serif;
     font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -13,3 +14,97 @@
 }
 
 /* end of extra work */
+/* nav bar styels */
+header {
+    margin: 0 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+
+nav li {
+    list-style: none;
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.nav-title {
+    color: #3A3A3A;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/*banner section styels */
+.banner-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+
+}
+
+.banner-headding {
+    color: #3A3A3A;
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 70px;
+
+}
+
+.banner-description {
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 16px;
+
+
+}
+
+.btn-primary {
+    border-radius: 41px;
+    background: #E02C6D;
+    padding: 10px 24px;
+    margin-top: 16px;
+    color: white;
+    border: none;
+}
+
+.banner-image {
+    background-image: url("./images/Circle\ design.svg");
+    margin-top: -10px;
+}
+
+/* sponsor-section */
+.sponosr-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 135px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+
+}
+
+/* Item sell collection */
+.item-sell-collection {
+    margin-top: 100px;
+    text-align: center;
+    color: #3A3A3A;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 70px;
+   
+}
